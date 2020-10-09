@@ -41,7 +41,7 @@ int main()
     printf("CHAR/INT STUFF\n--------------\n");
     printf("uint ui:\t %u(DECIMAL) %x(HEX)\n", ui, ui);
     printf("int* int_ptr:\t %p points to value: %u\n", int_ptr, *int_ptr);
-    printf("char* chr_ptr:\t %p points to value: %u\n", chr_ptr, *chr_ptr);
+    printf("char* chr_ptr:\t %p points to value: %hhu\n", chr_ptr, *chr_ptr);
     printf("\n");
 
     printf("BYTES STUFF\n-----------\n");
